@@ -1,6 +1,7 @@
 # RF
 
-- [] O usuário deve poder cadastrar novos fornecedores;
+- [x] O usuário deve poder cadastrar novos fornecedores;
+- [x] O usuário deve poder listar seus fornecedores
 - [] O usuário deve poder cadastrar novos insumos;
 - [] O usuário deve poder cadastrar novas receitas;
 
