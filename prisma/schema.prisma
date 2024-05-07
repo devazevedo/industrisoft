@@ -16,6 +16,7 @@ datasource db {
 model Recipes {
   id                  Int                   @id @default(autoincrement())
   name                String
+  yield               Float
   description         String?
   createdAt           DateTime              @default(now())
   updatedAt           DateTime              @updatedAt
@@ -47,6 +48,7 @@ enum Medition {
   g
   l
   ml
+  un
 }
 
 model RawMaterials {
